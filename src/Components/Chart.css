@@ -1,0 +1,10 @@
+.chart-header {
+    text-align: center;
+  }
+  
+  .chart {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 700px;
+  }

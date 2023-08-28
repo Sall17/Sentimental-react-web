@@ -1,0 +1,12 @@
+/* LineChart.css */
+.lineChart {
+    display: flex;
+    justify-content: left; /* Adjust alignment as needed */
+    align-items: center; /* Adjust alignment as needed */
+    width: 50%; /* Set the width of the line chart */
+    height: 400px; /* Set the height of the line chart */
+   
+
+}
+
+/* Add any other styling properties you need */

@@ -1,0 +1,12 @@
+.custom-carousel {
+    max-width: 900px;
+    max-height: 600px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 15px;
+    margin: 0;
+}

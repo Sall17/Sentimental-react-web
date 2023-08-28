@@ -1,0 +1,231 @@
+.conv-container {
+    width: 950px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin: 20px 0 0 100px;
+    border-radius: 15px;
+    flex-direction: column;
+    overflow-y: auto;
+    z-index: 0;
+    align-items: space-between;
+}
+
+.chatBox {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 20px);
+}
+
+.conv-analysis {
+    width: calc(100% - 140px);
+    height: 145px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 100px;
+    border-radius: 15px;
+}
+
+.conv-container-wrapper {
+    display: flex;
+    align-items: right;
+}
+
+td {
+    width: 200px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.w3-container {
+    font-weight: 400;
+    font-size: smaller;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    background-color: rgb(236, 11, 11);
+    color: white;
+}
+
+.message {
+    position: relative;
+    display: flex;
+    margin: 20px 20px 35px 20px;
+}
+
+.message.CR_message p {
+    position: relative;
+    right: 0;
+    text-align: right;
+    max-width: 65%;
+    padding: 12px;
+    background-color: rgb(216, 215, 215);
+    border-radius: 0 10px 10px 10px;
+    font-size: 0.9em;
+    color: black;
+}
+
+.message.AG_message p {
+    position: relative;
+    right: 0;
+    text-align: right;
+    max-width: 65%;
+    padding: 12px;
+    background-color: rgb(236, 11, 11);
+    border-radius: 10px 0 10px 10px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.message p span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.85em;
+    opacity: 0.5;
+}
+
+.AG_message {
+    justify-content: flex-end;
+}
+
+.CR_message {
+    justify-content: flex-start;
+}
+
+.CR_message p {
+    background-color: rgb(216, 215, 215);
+    text-align: left;
+}
+
+.mssg-state {
+    position: relative;
+    width: 20px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: -70px;
+}
+
+.mssg-state.CR_message {
+    margin-left: -7px;
+}
+
+.mssg-state.AG_message {
+    margin-right: -7px;
+    transform: translateX(860px);
+}
+
+.message.CR_message p::before {
+    content: 'CR';
+    font-weight: bold;
+    text-align: center;
+    color: rgb(140, 140, 140);
+    position: absolute;
+    top: 0;
+    left: -30px;
+    padding-top: 2px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(216, 215, 215);
+    border-radius: 20px;
+}
+
+.message.AG_message p::before {
+    content: 'AG';
+    font-weight: bold;
+    text-align: center;
+    color: rgb(140, 140, 140);
+    position: absolute;
+    top: 0;
+    right: -30px;
+    padding-top: 2px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(216, 215, 215);
+    border-radius: 20px;
+}
+.chats-list-container{
+    width: 100%;
+    height: 100%;
+}
+.chats-list {
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 20px;
+    border-radius: 15px;
+}
+
+.chats-list h2 {
+    color: #fff;
+    margin-top: 0;
+    background-color: rgb(236, 11, 11);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.chats-list ul {
+    position: relative;
+    background-color: #fff;
+}
+
+.chats-list ul li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.chats-list ul li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 100;
+    color: white;
+    background-color: rgb(236, 11, 11);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.chats-list ul li span {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: rgb(236, 11, 11);
+    color: white;
+    border-radius: 50%;
+    margin-right: 12px;
+    font-weight: 600;
+}
+
+.chats-list ul li:hover span {
+    background-color: white;
+    color: rgb(236, 11, 11);
+}
+
+.audio-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
