@@ -51,8 +51,8 @@ function Analysis() {
             <div className='chats-list-container2'>
                 <h2>Conversations List</h2>
                 <ul>
-                <li onClick={handleDisplayChat1}><span>1</span>List Item One</li>
-                 <li onClick={handleDisplayChat2}><span>2</span>List Item Two</li>
+                <li onClick={handleDisplayChat1}><span>1</span>Call [01122780877]</li>
+                 <li onClick={handleDisplayChat2}><span>2</span>Call [01153248888]</li>
                 </ul>
             </div>
         </div>
