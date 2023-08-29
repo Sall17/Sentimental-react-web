@@ -1,5 +1,5 @@
 .background {
-    width: calc(100% - 500px);
+    width: calc(100% - 430px);
     height: 400px;
     background-color: white;
     display: flex;
@@ -14,7 +14,7 @@
 #Header1{
     position: absolute;
     margin-top: -320px;
-    margin-left: -720px;
+    margin-left: -560px;
     font-size: xx-large;
     font-family: Ar;
     font-weight: bold;
@@ -23,7 +23,7 @@
 #Header2{
     position: absolute;
     margin-top: -320px;
-    margin-left: -770px;
+    margin-left: -560px;
     font-size: xx-large;
     font-family: Ar;
     font-weight: bold;
@@ -34,7 +34,7 @@
     height: 100%;
 }
 .chats-list2 {
-    width: 330px;
+    width: 300px;
     height: 400px;
     background-color: white;
     display: flex;
@@ -43,7 +43,7 @@
     margin: 20px 0 0 20px;
     border-radius: 15px;
     position: absolute;
-    margin-left: 1150px;
+    margin-left: 1040px;
     margin-top: -820px; ;
 }
 
@@ -97,7 +97,7 @@
     color: rgb(236, 11, 11);
 }
 .usage-content {
-    width: 330px;
+    width: 300px;
     height: 400px;
     background-color: white;
     display: flex;
@@ -106,7 +106,7 @@
     border-radius: 15px;
     position: absolute;
     top: 490px; 
-    left: 1150px; 
+    left: 1040px; 
     z-index: 0;
     overflow: hidden;
 }
